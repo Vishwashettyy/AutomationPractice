@@ -1,0 +1,111 @@
+- generic [active] [ref=f10e1]:
+  - generic [ref=f10e98]: "1"
+  - banner [ref=f10e2]:
+    - generic [ref=f10e3]:
+      - generic [ref=f10e5]:
+        - search:
+          - button "Submit" [ref=f10e6] [cursor=pointer]
+          - textbox "Search" [ref=f10e7]
+      - navigation [ref=f10e9]:
+        - link "Search" [ref=f10e10] [cursor=pointer]:
+          - /url: /search
+        - link "About Us" [ref=f10e11] [cursor=pointer]:
+          - /url: /pages/about-us
+        - link "Log In" [ref=f10e12] [cursor=pointer]:
+          - /url: /account/login
+        - link "Sign up" [ref=f10e13] [cursor=pointer]:
+          - /url: /account/register
+      - generic [ref=f10e15]:
+        - link "My Cart (0)" [ref=f10e16] [cursor=pointer]:
+          - /url: "#"
+        - link "Check Out" [ref=f10e17] [cursor=pointer]:
+          - /url: /cart
+    - generic [ref=f10e20]:
+      - heading [level=1] [ref=f10e22]:
+        - link [ref=f10e23] [cursor=pointer]:
+          - /url: /
+          - img "Sauce Demo" [ref=f10e24]
+      - heading "Just a demo site showing off what Sauce can do." [level=3] [ref=f10e27]
+  - generic [ref=f10e28]:
+    - navigation [ref=f10e30]:
+      - list [ref=f10e31]:
+        - listitem [ref=f10e32]:
+          - link "Home" [ref=f10e33] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f10e34]:
+          - link "Catalog" [ref=f10e35] [cursor=pointer]:
+            - /url: /collections/all
+        - listitem [ref=f10e36]:
+          - link "Blog" [ref=f10e37] [cursor=pointer]:
+            - /url: /blogs/news
+        - listitem [ref=f10e38]:
+          - link "About Us" [ref=f10e39] [cursor=pointer]:
+            - /url: /pages/about-us
+        - listitem [ref=f10e40]:
+          - link "Wish list" [ref=f10e41] [cursor=pointer]:
+            - /url: "#sauce-show-wish-list"
+        - listitem [ref=f10e42]:
+          - link "Refer a friend" [ref=f10e43] [cursor=pointer]:
+            - /url: "#sauce-show-refer-friend"
+      - generic [ref=f10e44]:
+        - link [ref=f10e45] [cursor=pointer]:
+          - /url: http://www.facebook.com/shopify
+        - link [ref=f10e46] [cursor=pointer]:
+          - /url: http://www.twitter.com/sauce_io
+        - link [ref=f10e47] [cursor=pointer]:
+          - /url: http://www.instagram.com/shopify
+        - link [ref=f10e48] [cursor=pointer]:
+          - /url: http://www.pinterest.com/chrisjhoughton/awesome-facebook-integration/
+        - link [ref=f10e49] [cursor=pointer]:
+          - /url: /blogs/news.atom
+    - generic [ref=f10e51]:
+      - generic [ref=f10e52]:
+        - link "Home" [ref=f10e54] [cursor=pointer]:
+          - /url: /
+        - text: —
+        - link "Grey jacket" [ref=f10e56] [cursor=pointer]:
+          - /url: /products/grey-jacket
+      - generic [ref=f10e57]:
+        - img "Product Image" [ref=f10e59]
+        - generic [ref=f10e61]:
+          - heading "Grey jacket" [level=1] [ref=f10e62]
+          - heading "£55.00" [level=2] [ref=f10e63]
+          - combobox [ref=f10e66]:
+            - option "Grey jacket" [selected]
+          - button "Add to Cart" [disabled] [ref=f10e67] [cursor=pointer]
+        - generic [ref=f10e69]:
+          - text: This area is populated by the product description. If you ever run out of things to say about what you're selling then take a look at
+          - link "9 ways to write compelling product descriptions" [ref=f10e70] [cursor=pointer]:
+            - /url: http://www.shopify.ca/blog/8211159-9-simple-ways-to-write-product-descriptions-that-sell
+          - text: . In Theme Settings you can also change render the product description to the write of the product images.X
+    - contentinfo [ref=f10e71]:
+      - generic [ref=f10e72]:
+        - navigation [ref=f10e74]:
+          - heading "Footer" [level=2] [ref=f10e75]
+          - link "Search" [ref=f10e76] [cursor=pointer]:
+            - /url: /search
+          - link "About Us" [ref=f10e77] [cursor=pointer]:
+            - /url: /pages/about-us
+        - generic [ref=f10e79]:
+          - heading "About Us" [level=2] [ref=f10e80]
+          - paragraph [ref=f10e82]:
+            - strong [ref=f10e83]:
+              - text: This is a demo site created for
+              - link "Sauce" [ref=f10e84] [cursor=pointer]:
+                - /url: http://sauceapp.io
+            - text: ", an awesome new way to make your Shopify site social. Sauce allows you to let customers to share what they purchase to their friends, and see what their friends have purchased or \"wanted\" on your store."
+        - generic [ref=f10e86]:
+          - img "We accept Amex" [ref=f10e87]
+          - img "We accept Visa" [ref=f10e88]
+          - img "We accept Mastercard" [ref=f10e89]
+      - generic [ref=f10e90]:
+        - generic [ref=f10e92]:
+          - text: Copyright © 2026 Sauce Demo.
+          - link "Shopping Cart by Shopify" [ref=f10e93] [cursor=pointer]:
+            - /url: https://www.shopify.co.uk/tour/shopping-cart?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - text: .
+        - navigation [ref=f10e95]:
+          - link "Search" [ref=f10e96] [cursor=pointer]:
+            - /url: /search
+          - link "About Us" [ref=f10e97] [cursor=pointer]:
+            - /url: /pages/about-us

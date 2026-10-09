@@ -1,1 +1,5 @@
-We are learning git hub fundamentals
+Impliment automation code for ### 1. Storefront navigation and home 
+- Create page object model framework
+-Make sure test,pages,fixtures and all other folder should be on same,
+dont create any folder inside tests folder
+-Impliment new feature automation with POM framework
